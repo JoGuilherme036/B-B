@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!-- Central Comercial V10 | app 2026.09.30.10 | original reference dataset unchanged -->
+
+<html class="no-js" data-theme="light" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#f47b20" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<title>Central Comercial Humana • B&amp;B — PRO V10</title>
+<meta content="Central Comercial Humana + B&amp;B" name="application-name"/>
+<meta content="2026.09.30.10" name="central-build"/>
+<meta content="cfe78bf96052db78c9113977ec2107fc49a7f1d32f5be85ee2a4e38c103ca69d" name="central-database-sha256"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="default" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="Central Comercial Humana Saúde + B&amp;B Saúde e Seguros. Consulta detalhada de planos, preços, faixas etárias, campanhas, carências, coparticipação, procedimentos, adesão, rede, odontologia e fontes. Funciona 100% offline." name="description"/>
+
+<link href="./manifest.webmanifest" rel="manifest"/><link href="./css/app.css" rel="stylesheet"/><link href="./css/interface.css" rel="stylesheet"/><link href="./icons/icon-192.png" rel="apple-touch-icon"/><link href="./favicon.ico" rel="icon"/><meta content="noindex,nofollow" name="robots"/><script src="./js/boot.js"></script><script defer="True" src="./data/database.js"></script><script defer="True" src="./js/xlsx-native.js"></script><script defer="True" src="./js/app.js"></script><script defer="True" src="./js/enhancements.js"></script><script defer="True" src="./js/pwa.js"></script></head>
+<body class="app-booting">
+<svg aria-hidden="true" class="icon-sprite" focusable="false">
+<symbol id="i-home" viewbox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path><path d="M9 21v-7h6v7"></path></symbol>
+<symbol id="i-search" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></symbol>
+<symbol id="i-tag" viewbox="0 0 24 24"><path d="M20 13 11 22l-9-9V4h9z"></path><circle cx="7.5" cy="8.5" r="1"></circle></symbol>
+<symbol id="i-clock" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></symbol>
+<symbol id="i-percent" viewbox="0 0 24 24"><path d="m19 5-14 14"></path><circle cx="7" cy="7" r="2"></circle><circle cx="17" cy="17" r="2"></circle></symbol>
+<symbol id="i-activity" viewbox="0 0 24 24"><path d="M3 12h4l2-7 4 14 2-7h6"></path></symbol>
+<symbol id="i-users" viewbox="0 0 24 24"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-4 2.5-7 6-7s6 3 6 7"></path><path d="M16 5a3 3 0 0 1 0 6M18 13c2.3.8 3 3.1 3 6"></path></symbol>
+<symbol id="i-hospital" viewbox="0 0 24 24"><path d="M4 21V5h16v16"></path><path d="M9 5V2h6v3M9 10h6M12 7v6M7 21v-5h4v5M13 21v-5h4v5"></path></symbol>
+<symbol id="i-smile" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M8 14s1.5 3 4 3 4-3 4-3M9 9h.01M15 9h.01"></path></symbol>
+<symbol id="i-file" viewbox="0 0 24 24"><path d="M6 2h8l4 4v16H6z"></path><path d="M14 2v5h5M9 12h6M9 16h6"></path></symbol>
+<symbol id="i-moon" viewbox="0 0 24 24"><path d="M20 15.5A8 8 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5z"></path></symbol>
+<symbol id="i-sun" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></symbol>
+<symbol id="i-heart" viewbox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8z"></path></symbol>
+<symbol id="i-compare" viewbox="0 0 24 24"><path d="M7 7h13M17 4l3 3-3 3M17 17H4M7 14l-3 3 3 3"></path></symbol>
+<symbol id="i-copy" viewbox="0 0 24 24"><rect height="12" rx="2" width="12" x="8" y="8"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></symbol>
+<symbol id="i-download" viewbox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"></path></symbol>
+<symbol id="i-print" viewbox="0 0 24 24"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><path d="M6 14h12v7H6z"></path></symbol>
+<symbol id="i-menu" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></symbol>
+<symbol id="i-close" viewbox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"></path></symbol>
+<symbol id="i-up" viewbox="0 0 24 24"><path d="m6 15 6-6 6 6"></path></symbol>
+<symbol id="i-check" viewbox="0 0 24 24"><path d="m5 12 4 4L19 6"></path></symbol>
+<symbol id="i-database" viewbox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"></ellipse><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"></path></symbol>
+<symbol id="i-info" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7h.01"></path></symbol>
+<symbol id="i-chevron" viewbox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></symbol>
+<symbol id="i-external" viewbox="0 0 24 24"><path d="M14 3h7v7M21 3l-9 9"></path><path d="M18 13v7H4V6h7"></path></symbol>
+</svg>
+<section class="compatibility-fallback" id="compatibilityFallback" aria-live="polite">
+  <div class="boot-card">
+    <div class="boot-logos">
+      <img src="./assets/logos/humana-saude.png" alt="Humana Saúde">
+      <span></span>
+      <img src="./assets/logos/bb-saude-seguros.png" alt="B&amp;B Saúde e Seguros">
+    </div>
+    <div class="boot-spinner" aria-hidden="true"></div>
+    <h1 id="compatTitle">Central Comercial</h1>
+    <p id="bootMessage">Preparando a base comercial e a interface…</p>
+    <small id="bootHint">Os dados ficam armazenados localmente neste sistema.</small>
+    <button type="button" id="bootRetry" hidden onclick="location.reload()">Tentar novamente</button>
+  </div>
+</section>
+<div class="app-shell">
+<aside aria-label="Navegação principal" class="sidebar">
+<div class="side-brand">
+<div class="side-brand-logos">
+<img alt="Humana Saúde" src="./assets/logos/humana-saude.png"/>
+<span aria-hidden="true" class="logo-divider"></span>
+<img alt="B&amp;B Saúde e Seguros" src="./assets/logos/bb-saude-seguros.png"/>
+</div>
+<h1>Central Comercial</h1>
+<p>Humana Saúde • B&amp;B Saúde e Seguros</p>
+</div>
+<nav class="side-nav" id="sideNav">
+<div class="side-nav-title">Navegação</div>
+<a class="side-link active" data-nav="inicio" href="#inicio"><svg class="icon"><use href="#i-home" xlink:href="#i-home"></use></svg>Início</a>
+<a class="side-link" data-nav="consulta" href="#consulta"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg>Consulta de planos</a>
+<a class="side-link" data-nav="campanhas" href="#campanhas"><svg class="icon"><use href="#i-tag" xlink:href="#i-tag"></use></svg>Campanhas</a>
+<a class="side-link" data-nav="carencias" href="#carencias"><svg class="icon"><use href="#i-clock" xlink:href="#i-clock"></use></svg>Carências</a>
+<a class="side-link" data-nav="coparticipacao" href="#coparticipacao"><svg class="icon"><use href="#i-percent" xlink:href="#i-percent"></use></svg>Coparticipação</a>
+<a class="side-link" data-nav="procedimentos" href="#procedimentos"><svg class="icon"><use href="#i-activity" xlink:href="#i-activity"></use></svg>Procedimentos</a>
+<a class="side-link" data-nav="adesao" href="#adesao"><svg class="icon"><use href="#i-users" xlink:href="#i-users"></use></svg>Adesão</a>
+<a class="side-link" data-nav="rede" href="#rede"><svg class="icon"><use href="#i-hospital" xlink:href="#i-hospital"></use></svg>Rede credenciada</a>
+<a class="side-link" data-nav="odonto" href="#odonto"><svg class="icon"><use href="#i-smile" xlink:href="#i-smile"></use></svg>Odontológico</a>
+<a class="side-link" data-nav="fontes" href="#fontes"><svg class="icon"><use href="#i-file" xlink:href="#i-file"></use></svg>Fontes</a>
+</nav>
+<div class="side-bottom">
+<div class="side-status"><span aria-hidden="true" class="dot"></span>Base local disponível</div>
+<p>Consulta com base local<br/>Referência documental • Setembro/2026</p>
+</div>
+</aside>
+<div class="app-main">
+<header class="topbar">
+<button aria-label="Recolher ou exibir a navegação lateral" class="icon-btn sidebar-collapse-btn" id="sidebarToggle" title="Recolher sidebar" type="button"><svg class="icon"><use href="#i-menu" xlink:href="#i-menu"></use></svg></button>
+<div class="topbar-brand">
+<img alt="Humana Saúde" src="./assets/logos/humana-saude.png"/>
+<img alt="B&amp;B Saúde e Seguros" src="./assets/logos/bb-saude-seguros.png"/>
+<span>Central Comercial</span>
+</div>
+<div aria-live="polite" class="breadcrumb"><span>Central Comercial</span><span>/</span><strong id="breadcrumbCurrent">Início</strong></div>
+<form class="top-search" id="globalSearchForm" role="search">
+<svg aria-hidden="true" class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg>
+<label class="sr-only" for="globalSearch">Pesquisar em planos e procedimentos</label>
+<input autocomplete="off" class="input" id="globalSearch" placeholder="Pesquisa rápida: plano, ANS, procedimento..."/>
+<button aria-label="Executar pesquisa" type="submit"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></button>
+</form>
+<div class="top-actions">
+<span class="badge badge-green offline-chip" title="Base local disponível sem conexão. Condições comerciais devem ser confirmadas antes da contratação."><span class="dot"></span>Offline</span>
+<button aria-label="Alternar tema" class="icon-btn" id="themeBtn" type="button"><svg class="icon" id="themeIcon"><use href="#i-moon" xlink:href="#i-moon"></use></svg><span class="theme-label" id="themeLabel">Tema</span></button>
+</div>
+</header>
+<main class="content">
+<section class="section" data-section-title="Início" id="inicio" style="padding-top:0">
+<div class="hero hero-pro">
+<div class="hero-layout">
+<div class="hero-copy">
+<span class="badge hero-badge"><span class="dot" style="background:#56e3a6;color:#56e3a6"></span>BASE COMERCIAL LOCAL • PI + MA</span>
+<h2>Sua consulta comercial <span>sem complicação.</span></h2>
+<p>Planos, valores, campanhas, carências, coparticipação e regras comerciais em uma central pensada para atendimento rápido — no computador ou no celular.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#consulta"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg>Consultar tabelas</a>
+<a class="btn btn-ghost" href="#campanhas"><svg class="icon"><use href="#i-tag" xlink:href="#i-tag"></use></svg>Campanhas cadastradas</a>
+</div>
+<div class="hero-trust-row"><span><i></i>Base local</span><span>114 configurações</span><span>1.140 faixas de preço</span><span>Sem depender de internet</span></div>
+</div>
+<aside class="hero-quote" aria-label="Cotação rápida">
+<div class="hero-quote-head"><div><span class="hero-quote-kicker">CONSULTA COMERCIAL</span><h3>Cotação rápida</h3><p>Escolha os dados do cliente e encontre os valores na tabela.</p></div><span class="hero-quote-status">BASE LOCAL</span></div>
+<div class="hero-quote-grid">
+<div class="field"><label for="quickState">Estado</label><select class="select" id="quickState"><option value="">PI + MA</option><option value="PI">Piauí</option><option value="MA">Maranhão</option></select></div>
+<div class="field"><label for="quickContract">Contratação</label><select class="select" id="quickContract"><option value="">Todas</option></select></div>
+<div class="field"><label for="quickAge">Idade</label><input class="input" id="quickAge" inputmode="numeric" max="120" min="0" placeholder="Ex.: 22" type="number"/></div>
+<div class="field"><label for="quickPlan">Plano</label><select class="select" id="quickPlan"><option value="">Todos os planos</option></select></div>
+</div>
+<button class="btn btn-primary hero-quote-btn" id="quickSearchBtn" type="button"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg>Ver condições disponíveis</button>
+<div class="hero-quote-foot"><span class="dot"></span><span id="quickSearchHint">Os filtros serão aplicados automaticamente.</span></div>
+</aside>
+</div>
+</div>
+<nav class="mobile-quick-links" aria-label="Acessos complementares"><a href="#campanhas">Campanhas</a><a href="#carencias">Carências</a><a href="#procedimentos">Procedimentos</a></nav>
+<div class="home-section-heading"><div><span class="eyebrow">VISÃO GERAL</span><h3>Sua base comercial, em um só lugar</h3></div><a href="#consulta">Ir para consulta <span aria-hidden="true">→</span></a></div>
+<div aria-label="Resumo da base" class="metric-grid"><article class="card metric-card metric-blue"><div class="metric-heading"><span>Configurações</span><span class="metric-symbol" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-file" xlink:href="#i-file"></use></svg></span></div><b id="metricRecords">—</b><span class="metric-description">Planos disponíveis na base</span></article>
+<article class="card metric-card metric-orange"><div class="metric-heading"><span>Faixas e valores</span><span class="metric-symbol" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-database" xlink:href="#i-database"></use></svg></span></div><b id="metricRows">—</b><span class="metric-description">Linhas comerciais para consulta</span></article>
+<article class="card metric-card metric-green"><div class="metric-heading"><span>Campanhas</span><span class="metric-symbol" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-tag" xlink:href="#i-tag"></use></svg></span></div><b id="metricCampaigns">—</b><span class="metric-description">Condições comerciais cadastradas</span></article>
+<article class="card metric-card metric-violet"><div class="metric-heading"><span>Procedimentos</span><span class="metric-symbol" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-activity" xlink:href="#i-activity"></use></svg></span></div><b id="metricProcedures">—</b><span class="metric-description">Itens disponíveis para pesquisa</span></article></div>
+<div class="home-shortcuts-head"><h3>O que você precisa consultar?</h3><p>Escolha um assunto para acessar as informações diretamente.</p></div>
+<div aria-label="Acessos rápidos" class="quick-grid"><a class="quick-card quick-blue" href="#consulta" aria-label="Consulta de preços: Encontre planos e compare os valores"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-search" xlink:href="#i-search"></use></svg></span><span class="quick-copy"><b>Consulta de preços</b><span>Encontre planos e compare os valores</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-orange" href="#campanhas" aria-label="Campanhas cadastradas: Consulte benefícios e períodos da base"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-tag" xlink:href="#i-tag"></use></svg></span><span class="quick-copy"><b>Campanhas cadastradas</b><span>Consulte benefícios e períodos da base</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-violet" href="#carencias" aria-label="Carências: Consulte prazos e reduções"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-clock" xlink:href="#i-clock"></use></svg></span><span class="quick-copy"><b>Carências</b><span>Consulte prazos e reduções</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-green" href="#coparticipacao" aria-label="Coparticipação: Veja modalidades e valores"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-percent" xlink:href="#i-percent"></use></svg></span><span class="quick-copy"><b>Coparticipação</b><span>Veja modalidades e valores</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-blue" href="#procedimentos" aria-label="Procedimentos: Encontre itens por nome ou TUSS"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-activity" xlink:href="#i-activity"></use></svg></span><span class="quick-copy"><b>Procedimentos</b><span>Encontre itens por nome ou TUSS</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-green" href="#rede" aria-label="Rede credenciada: Confira unidades e atendimento"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-hospital" xlink:href="#i-hospital"></use></svg></span><span class="quick-copy"><b>Rede credenciada</b><span>Confira unidades e atendimento</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-orange" href="#adesao" aria-label="Adesão: Entidades, critérios e documentos"><span class="quick-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-users" xlink:href="#i-users"></use></svg></span><span class="quick-copy"><b>Adesão</b><span>Entidades, critérios e documentos</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a>
+<a class="quick-card quick-violet" href="#odonto" aria-label="Odontologia: Consulte os planos odontológicos"><span class="quick-icon" aria-hidden="true"><svg aria-hidden="true" class="icon"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-2-1.2-4.2-1.7-6-.6C2.8 6.4 3.9 11 5.1 13.5 6.1 15.7 6.3 21 8.6 21c1.7 0 1.8-5.1 3.4-5.1s1.7 5.1 3.4 5.1c2.3 0 2.5-5.3 3.5-7.5C20.1 11 21.2 6.4 18 4.4c-1.8-1.1-4-.6-6 .6Z"/></svg></span><span class="quick-copy"><b>Odontologia</b><span>Consulte os planos odontológicos</span></span><span class="quick-arrow" aria-hidden="true"><svg class="icon"><use href="#i-chevron" xlink:href="#i-chevron"></use></svg></span></a></div>
+</section>
+<section class="section" data-section-title="Consulta de planos" id="consulta">
+<div class="section-head">
+<div class="section-head-copy">
+<div class="section-kicker">Etapa 1 · Encontre o preço</div>
+<h2>Planos e valores</h2>
+<p>Encontre preços por estado, contratação, plano, idade e condições comerciais sem sair desta tela.</p>
+</div>
+<span class="badge section-count" id="priceCount">—</span>
+</div>
+<div class="card search-shell">
+<div class="search-primary">
+<div class="search-title-row">
+<span class="search-title-icon"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg></span>
+<div><b>O que você deseja consultar?</b><span>Digite um plano, produto, região ou número ANS.</span></div>
+</div>
+<div class="search-main-row">
+<div class="input-icon search-main">
+<svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg>
+<label class="sr-only" for="planSearch">Pesquisar plano, produto, cobertura, ANS ou informação</label>
+<input autocomplete="off" class="input" id="planSearch" placeholder="Ex.: Vital, PME PI, 0–18, 495.612/23-5..."/>
+</div>
+<button class="btn btn-blue" id="planSearchBtn" type="button">Buscar preços</button><button class="btn btn-ghost" id="clearSearchOnly" type="button" aria-label="Limpar somente o termo de busca">Limpar busca</button>
+<div class="suggestion-popover" hidden="" id="suggestionPopover"></div>
+</div>
+</div>
+<div class="search-recommendations" id="searchRecommendations">
+<div class="reco-group">
+<div class="reco-head"><b>Consultas recomendadas</b></div>
+<div class="reco-chips" id="recommendedChips"></div>
+</div>
+<div class="reco-group" hidden="" id="recentGroup">
+<div class="reco-head"><b>Consultas recentes</b><button class="btn btn-ghost" id="clearRecents" style="min-height:32px;padding:4px 8px;font-size:10px" type="button">Limpar</button></div>
+<div class="reco-chips" id="recentChips"></div>
+</div>
+<div class="reco-group" hidden="" id="popularGroup">
+<div class="reco-head"><b>Mais acessados neste dispositivo</b></div>
+<div class="reco-chips" id="popularChips"></div>
+</div>
+</div>
+<div class="filters-panel">
+<div class="age-panel">
+<div>
+<strong>Idade do beneficiário</strong>
+<p>Digite a idade e a faixa correspondente será selecionada automaticamente.</p>
+<span class="age-result" id="ageDetected">Nenhuma idade informada</span>
+</div>
+<div class="field">
+<label for="ageNumber">Idade</label>
+<input class="input" id="ageNumber" inputmode="numeric" max="120" min="0" placeholder="Ex.: 22" type="number"/>
+</div>
+</div>
+<div class="filter-grid">
+<div class="field"><label for="stateFilter">Estado</label><select class="select" id="stateFilter"></select></div>
+<div class="field"><label for="contractFilter">Contratação</label><select class="select" id="contractFilter"></select></div>
+<div class="field"><label for="planFilter">Plano</label><select class="select" id="planFilter"></select></div>
+<div class="field"><label for="ageFilter">Faixa etária</label><select class="select" id="ageFilter"></select></div>
+<div aria-hidden="true" aria-label="Mais filtros" aria-modal="true" class="advanced-filter-sheet" id="advancedFilterSheet" role="dialog"><div class="advanced-filter-head"><div><span class="section-kicker">Filtros</span><b>Mais filtros</b></div><button aria-label="Fechar filtros" class="icon-btn" id="closeAdvancedFilters" type="button"><svg class="icon"><use href="#i-close" xlink:href="#i-close"></use></svg></button></div><div class="field"><label for="copayFilter">Coparticipação</label><select class="select" id="copayFilter"></select></div><div class="field"><label for="accommodationFilter">Acomodação</label><select class="select" id="accommodationFilter"></select></div><div class="field"><label for="segmentFilter">Segmentação</label><select class="select" id="segmentFilter"></select></div><div class="field"><label for="regionFilter">Região</label><select class="select" id="regionFilter"></select></div><div class="advanced-filter-footer"><button class="btn btn-ghost" id="clearAdvancedFilters" type="button">Limpar</button><button class="btn btn-blue" id="applyAdvancedFilters" type="button">Ver <span id="mobileFilterResultsCount">0</span> resultados</button></div></div>
+</div>
+<button aria-controls="advancedFilterSheet" aria-expanded="false" class="btn btn-ghost mobile-more-filters" id="mobileMoreFiltersBtn" type="button">Mais filtros</button><div class="filter-footer">
+<div aria-live="polite" class="active-filters" id="activeFilters"></div>
+<button class="btn btn-ghost" id="clearFiltersBtn" type="button">Limpar filtros</button>
+</div>
+</div>
+</div>
+<div class="saved-query-bar" aria-label="Consultas salvas">
+<div class="saved-query-copy"><span class="section-kicker">Produtividade</span><b>Consultas salvas</b><small>Guarde combinações usadas com frequência neste dispositivo.</small></div>
+<div class="saved-query-chips" id="savedQueryChips"><span class="saved-query-empty">Nenhuma consulta salva ainda</span></div>
+<button class="btn btn-soft" id="saveQueryBtn" type="button"><svg class="icon"><use href="#i-heart" xlink:href="#i-heart"></use></svg>Salvar consulta atual</button>
+</div>
+<div class="results-zone">
+<div class="query-context" hidden="" id="queryContext">
+<div><span>Consulta de preços</span><strong id="queryContextText">Filtros ativos</strong></div>
+<button class="btn btn-ghost" id="editFiltersBtn" type="button">Editar filtros</button>
+</div>
+<div aria-label="Resumo dos resultados" class="results-overview results-overview-pro">
+<article class="overview-card primary"><span>Opções encontradas</span><b id="overviewCount" aria-live="polite">0</b><small id="overviewConfigs">0 configurações</small></article>
+<article class="overview-card"><span>Menor valor</span><b id="overviewMin">—</b><small>entre os produtos exibidos</small></article>
+<article class="overview-card"><span>Maior valor</span><b id="overviewMax">—</b><small>na consulta atual</small></article>
+<article class="overview-card"><span>Faixa selecionada</span><b id="overviewAge">Todas</b><small>idade / faixa aplicada</small></article>
+<article class="overview-card"><span>Estado</span><b id="overviewState">PI + MA</b><small>abrangência filtrada</small></article>
+</div>
+<div class="result-toolbar">
+<div class="toolbar-left">
+<div class="field sort-field"><label for="sortFilter">Ordenar por</label><select class="select" id="sortFilter"><option value="priceAsc">Menor preço</option><option value="priceDesc">Maior preço</option><option value="planAsc">Plano A–Z</option><option value="stateAsc">Estado</option></select></div>
+<div class="field"><span class="field-label">Densidade</span><div class="segmented" id="densityToggle"><button class="active" data-density="comfortable" type="button">Confortável</button><button data-density="compact" type="button">Compacta</button></div></div>
+<div class="field view-toggle"><span class="field-label">Visualização</span><div class="segmented" id="viewToggle"><button class="active" data-view="table" type="button">Tabela</button><button data-view="cards" type="button">Cards</button></div></div>
+</div>
+<div class="toolbar-right">
+<button class="btn btn-ghost favorite-toggle" id="favoritesOnlyBtn" type="button"><svg class="icon"><use href="#i-heart" xlink:href="#i-heart"></use></svg><span>Favoritos</span><b id="favCount">0</b></button>
+<div class="toolbar-export-cluster" aria-label="Exportações da consulta">
+<button class="btn btn-ghost export-btn excel" id="exportExcelBtn" type="button" title="Exportar planilha Excel nativa .xlsx"><svg class="icon"><use href="#i-download" xlink:href="#i-download"></use></svg><span>XLSX</span></button>
+<button class="btn btn-ghost export-btn pdf" id="exportPdfBtn" type="button" title="Exportar PDF compacto"><svg class="icon"><use href="#i-file" xlink:href="#i-file"></use></svg><span>PDF</span></button>
+<button class="btn btn-ghost export-btn csv" id="exportBtn" type="button" title="Exportar CSV detalhado"><svg class="icon"><use href="#i-download" xlink:href="#i-download"></use></svg><span>CSV</span></button>
+</div>
+<button class="btn btn-ghost print-action" id="printBtn" type="button"><svg class="icon"><use href="#i-print" xlink:href="#i-print"></use></svg><span>Imprimir</span></button>
+</div>
+</div>
+<div class="commercial-results" id="planTableWrap"></div>
+<div class="results-card-grid" hidden="" id="planCards"></div>
+<div class="load-more-wrap"><button class="btn btn-ghost" hidden="" id="loadMoreBtn" type="button">Mostrar mais</button></div>
+</div>
+</section>
+<section class="section" data-section-title="Campanhas" id="campanhas">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Condições comerciais</div><h2>Campanhas e promoções</h2><p>Condições registradas na base. Confirme a vigência antes de apresentar uma oferta.</p></div>
+<span class="badge section-count" id="campaignCount">—</span>
+</div>
+<div class="card module-panel">
+<div class="module-toolbar">
+<div aria-label="Estado das campanhas" class="tabs" id="campaignTabs" role="tablist">
+<button aria-selected="true" class="tab active" data-campaign-state="Todos" role="tab" type="button">Todos</button>
+<button aria-selected="false" class="tab" data-campaign-state="PI" role="tab" type="button">PI</button>
+<button aria-selected="false" class="tab" data-campaign-state="MA" role="tab" type="button">MA</button>
+</div>
+<div class="input-icon" style="width:min(100%,330px)"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg><label class="sr-only" for="campaignSearch">Pesquisar campanha</label><input class="input" id="campaignSearch" placeholder="Pesquisar campanha ou benefício..."/></div>
+</div>
+<p class="data-currency-note" role="note">Referência documental: base comercial local de setembro/2026. O cadastro de uma campanha não comprova que esteja disponível hoje.</p><div class="campaign-grid" id="campaignGrid"></div>
+</div>
+</section>
+<section class="section" data-section-title="Carências" id="carencias">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Prazos e redução</div><h2>Carências</h2><p>Compare carência contratual e PRCs sem misturar regras do Piauí e Maranhão.</p></div>
+<span class="badge section-count">PI + MA</span>
+</div>
+<div class="card module-panel">
+<div class="module-toolbar">
+<div class="toolbar">
+<div class="field" style="width:120px"><label for="careState">Estado</label><select class="select" id="careState"><option>PI</option><option>MA</option></select></div>
+<div class="field" style="width:140px"><label for="careContract">Contratação</label><select class="select" id="careContract"><option>PME</option><option>PF</option></select></div>
+</div>
+<span class="badge badge-blue" id="careSummary">—</span>
+</div>
+<div class="table-wrap desktop-data-table"><table class="data-table" id="careTable"><thead id="careTableHead"></thead><tbody id="careTableBody"></tbody></table></div>
+<div class="mobile-data-cards" id="careCards"></div>
+<div class="prc-block">
+<div class="section-kicker" style="margin-bottom:8px">Entenda os PRCs</div>
+<div id="prcDefinitions"></div>
+</div>
+</div>
+</section>
+<section class="section" data-section-title="Coparticipação" id="coparticipacao">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Valores por utilização</div><h2>Coparticipação</h2><p>Valores de coparticipação organizados por estado, modalidade e grupo de plano.</p></div>
+</div>
+<div class="card module-panel">
+<div class="module-toolbar">
+<div class="toolbar">
+<div class="field" style="width:120px"><label for="copayState">Estado</label><select class="select" id="copayState"><option>PI</option><option>MA</option></select></div>
+<div class="field"><span class="field-label">Modalidade</span><div class="segmented" id="copayMode"><button class="active" data-copay-mode="complete" type="button">Completa</button><button data-copay-mode="basic" type="button">Básica</button></div></div>
+</div>
+</div>
+<div class="table-wrap desktop-data-table"><table class="data-table"><thead id="copayHead"></thead><tbody id="copayBody"></tbody></table></div>
+<div class="mobile-data-cards" id="copayCards"></div>
+</div>
+</section>
+<section class="section" data-section-title="Procedimentos" id="procedimentos">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Consulta específica</div><h2>Procedimentos</h2><p>Pesquise instantaneamente por nome, código TUSS, grupo ou classe.</p></div>
+<span class="badge section-count" id="procedureCount">—</span>
+</div>
+<div class="card module-panel">
+<div class="proc-controls">
+<div class="input-icon proc-search"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg><label class="sr-only" for="procedureSearch">Pesquisar procedimento</label><input class="input" id="procedureSearch" placeholder="Ex.: ressonância, hemograma, TUSS..."/></div>
+<div class="field"><label for="procedureState">Estado</label><select class="select" id="procedureState"><option>PI</option><option>MA</option></select></div>
+<div class="field"><label for="procedureClass">Categoria</label><select class="select" id="procedureClass"></select></div>
+</div>
+<div class="procedure-grid" id="procedureGrid"></div>
+</div>
+</section>
+<section class="section" data-section-title="Adesão" id="adesao">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Coletivo por adesão</div><h2>Entidades e regras</h2><p>Quem pode aderir, documentação, dependentes, comercialização, cobrança e demais regras.</p></div>
+<span class="badge section-count" id="entityCount">—</span>
+</div>
+<div class="entity-grid" id="entityGrid"></div>
+<div class="rules-grid" id="adhesionRules"></div>
+</section>
+<section class="section" data-section-title="Rede credenciada" id="rede">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Atendimento</div><h2>Rede e unidades</h2><p>Informações de rede presentes na base comercial, organizadas por estado.</p></div>
+</div>
+<div class="network-layout" id="networkLayout"></div>
+</section>
+<section class="section" data-section-title="Odontológico" id="odonto">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Planos odontológicos</div><h2>Odontologia</h2><p>Planos, preços, coberturas e códigos ANS separados por contexto comercial.</p></div>
+</div>
+<div class="dental-grid" id="dentalGrid"></div>
+</section>
+<section class="section" data-section-title="Fontes" id="fontes">
+<div class="section-head">
+<div class="section-head-copy"><div class="section-kicker">Rastreabilidade</div><h2>Base e fontes comerciais</h2><p>Documentos, versões, páginas, estados e tipos utilizados na construção desta central.</p></div>
+<span class="badge section-count" id="sourceCount">—</span>
+</div>
+<div class="notice" style="margin-bottom:10px"><svg class="icon"><use href="#i-info" xlink:href="#i-info"></use></svg><div><strong>Consulte sempre a versão comercial vigente antes de formalizar uma contratação.</strong><br/>Esta central organiza os dados incorporados no arquivo e preserva a referência de origem.</div></div>
+<div class="sources-list" id="sourcesList"></div>
+</section>
+<footer class="footer">
+<div>Central Comercial Offline • Humana Saúde + B&amp;B Saúde e Seguros • PI + MA</div>
+<div class="footer-logos"><img alt="Humana Saúde" src="./assets/logos/humana-saude.png"/><img alt="B&amp;B Saúde e Seguros" src="./assets/logos/bb-saude-seguros.png"/></div>
+<div class="footer-build"><span class="data-version-badge">Interface PRO V10 · Base 2026.09.29.5</span><span>SHA-256 cfe78bf96052…</span><span>114 configurações • 1,140 faixas • 18 campanhas • 94 procedimentos</span></div></footer>
+</main>
+</div>
+</div>
+<nav aria-label="Navegação móvel" class="mobile-nav">
+<a class="active" data-mobile-nav="inicio" href="#inicio"><svg class="icon"><use href="#i-home" xlink:href="#i-home"></use></svg><span>Início</span></a>
+<a data-mobile-nav="consulta" href="#consulta"><svg class="icon"><use href="#i-search" xlink:href="#i-search"></use></svg><span>Consulta</span></a>
+<a data-mobile-nav="campanhas" href="#campanhas"><svg class="icon"><use href="#i-tag" xlink:href="#i-tag"></use></svg><span>Campanhas</span></a>
+<a data-mobile-nav="rede" href="#rede"><svg class="icon"><use href="#i-hospital" xlink:href="#i-hospital"></use></svg><span>Rede</span></a>
+<button aria-controls="mobileSheet" aria-expanded="false" id="moreBtn" type="button"><svg class="icon"><use href="#i-menu" xlink:href="#i-menu"></use></svg><span>Mais</span></button>
+</nav>
+<div aria-hidden="true" class="filter-sheet-backdrop" id="filterSheetBackdrop"></div><div class="sheet-backdrop" id="sheetBackdrop"></div>
+<section aria-hidden="true" aria-label="Mais opções" class="mobile-sheet" id="mobileSheet">
+<div class="sheet-grab"></div>
+<div class="sheet-head"><b>Mais consultas</b><button aria-label="Fechar menu" class="icon-btn" id="closeSheet" type="button"><svg class="icon"><use href="#i-close" xlink:href="#i-close"></use></svg></button></div>
+<div class="sheet-grid">
+<a class="sheet-link" href="#carencias"><svg class="icon"><use href="#i-clock" xlink:href="#i-clock"></use></svg>Carências</a>
+<a class="sheet-link" href="#coparticipacao"><svg class="icon"><use href="#i-percent" xlink:href="#i-percent"></use></svg>Coparticipação</a>
+<a class="sheet-link" href="#procedimentos"><svg class="icon"><use href="#i-activity" xlink:href="#i-activity"></use></svg>Procedimentos</a>
+<a class="sheet-link" href="#adesao"><svg class="icon"><use href="#i-users" xlink:href="#i-users"></use></svg>Adesão</a>
+<a class="sheet-link" href="#odonto"><svg class="icon"><use href="#i-smile" xlink:href="#i-smile"></use></svg>Odontológico</a>
+<a class="sheet-link" href="#fontes"><svg class="icon"><use href="#i-file" xlink:href="#i-file"></use></svg>Fontes</a>
+</div>
+</section>
+<div aria-live="polite" class="compare-tray" id="compareTray">
+<div class="compare-tray-copy"><b id="compareTrayTitle">Comparar planos</b><span id="compareTrayText">0 de 3 opções selecionadas</span></div>
+<button class="btn btn-blue" id="openCompareBtn" type="button">Comparar</button>
+<button aria-label="Limpar comparação" class="icon-btn" id="clearCompareBtn" type="button"><svg class="icon"><use href="#i-close" xlink:href="#i-close"></use></svg></button>
+</div>
+<div class="modal-backdrop" id="modalBackdrop"></div>
+<section aria-hidden="true" aria-labelledby="modalHeading" aria-modal="true" class="modal" id="modal" role="dialog">
+<div class="modal-head">
+<div class="modal-title"><b id="modalHeading">Detalhes</b><span id="modalSubheading"></span></div>
+<button aria-label="Fechar" class="icon-btn" id="closeModal" type="button"><svg class="icon"><use href="#i-close" xlink:href="#i-close"></use></svg></button>
+</div>
+<div class="modal-body" id="modalBody"></div>
+<div class="modal-footer" id="modalFooter"></div>
+</section>
+<button aria-label="Voltar ao topo" class="icon-btn backtop" id="backTop" type="button"><svg class="icon"><use href="#i-up" xlink:href="#i-up"></use></svg></button>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+
+
+<div aria-live="polite" class="pwa-status" hidden="" id="pwaStatus"><span class="pwa-status-dot"></span><span id="pwaStatusText">Preparando acesso offline…</span></div><div class="pwa-update" hidden="" id="pwaUpdate" role="status"><div><b>Atualização disponível</b><span>Uma versão mais recente da Central está pronta.</span></div><button class="btn btn-blue" id="pwaUpdateBtn" type="button">Atualizar agora</button></div></body>
+</html>

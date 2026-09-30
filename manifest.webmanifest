@@ -1,0 +1,26 @@
+{
+  "name": "Central Comercial Humana Saúde + B&B Saúde e Seguros",
+  "short_name": "Central Humana B&B",
+  "description": "Consulta comercial offline-first em português: planos e valores da base local de setembro/2026",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#f47b20",
+  "lang": "pt-BR",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
